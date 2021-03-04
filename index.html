@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="abw_filter_wrapper">
+      <div id="abw_filterbar">
+        <button data-filter="versenden" data-filter-active="0">
+          Versenden
+        </button>
+        <button data-filter="empfangen" data-filter-active="0">
+          Empfangen
+        </button>
+        <button data-filter="brief" data-filter-active="0">Brief</button>
+        <button data-filter="paket" data-filter-active="0">Paket</button>
+        <button data-filter="reset" data-filter-active="0">Reset</button>
+      </div>
+
+      <div class="aw_grid_4" id="abw_filter_content">
+        <div class="aw_filer_item teal" data-versenden="1" data-paket="1">
+          <h3>Paketversand</h3>
+        </div>
+
+        <div class="aw_filer_item lime" data-versenden="1" data-brief="1">
+          <h3>Tagespost</h3>
+        </div>
+
+        <div class="aw_filer_item orange" data-empfangen="1">
+          <h3>Nachsendeauftrag</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
